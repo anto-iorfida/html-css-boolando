@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto';
 }
+/* ---------------------HEADER-------------------------------------- */
 header{
     height: 70px;
     max-width: 100%;
@@ -43,7 +45,7 @@ a{
     justify-content: end;
     width: 35%;
 }
-/* -------------------------------------- */
+/* --------------------------MAIN-------------------------------------- */
 .box{
     max-width: calc(100% / 3);
     max-height: 700px;
@@ -89,7 +91,21 @@ a{
     display: inline-block;
     padding-left: 6px;
 }
-/* ------------------------------------------------------------------ */
+/* ------------------------HOVER---------------------------------------- */
+.under-img{ 
+    position : absolute;
+    z-index: -1;
+}
+.relativ img:first-child{
+    opacity: 1;
+    position: absolute;
+}
+.relativ img:first-child:hover{
+    opacity: 0;
+}
+
+
+/* -------------------------FOOTER----------------------------------------- */
 footer{
     background-color: black;
     height: 110px;
@@ -110,4 +126,9 @@ footer{
     width: 50%;
     height: 100%;
 }
+.footer-box-right h3{
+    font-family: 'Protest Strike' ;
+    font-size: 16px;
+}
+
 
