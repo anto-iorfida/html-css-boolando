@@ -8,6 +8,7 @@ header{
     max-width: 100%;
     padding: 10px;
     background-color: #ff6900;
+    margin-bottom: 60px;
 }
 .contenitor{
     display: flex;
@@ -41,4 +42,50 @@ header a{
     display: flex;
     justify-content: end;
     width: 25%;
+}
+/* -------------------------------------- */
+.box{
+    max-width: calc(100% / 3);
+    max-height: 700px;
+    padding-left: 14px;
+    padding-bottom: 40px;
+}
+.box img{
+    max-width: 100%;
+    position: relative;
+}
+.relativ{
+    position: relative;
+    max-width: 100%;
+    /* max-height: 100%; */
+}
+.discount{
+    position: absolute;
+    bottom: 40px;
+    background-color: red;
+    padding: 6px 10px;
+}
+.sustainability{
+    position: absolute;
+    bottom: 40px;
+    left: 60px;
+    background-color: greenyellow;
+    padding: 6px 10px;
+}
+.heart{
+    position: absolute;
+    top: 14px;
+    right: 0;
+    background-color:white ;
+    padding: 4px 10px;
+    font-size: 40px;
+}
+.box p:nth-child(4){
+    color: red;
+    display: inline-block;
+}
+.box p:nth-child(5){
+    text-decoration: line-through;
+    display: inline-block;
+    padding-left: 6px;
 }
