@@ -17,20 +17,20 @@ header{
     margin: 0 auto;
 }
 .header-box-left{
-   width: 25%;
+   width: 30%;
 }
-header ul{
+ul{
     display: flex;
     list-style-type: none;
 }
-header a{
+a{
     text-decoration: none;
     color: white;
-    padding: 10px;
+    padding: 5px;
     line-height: 50px;
 }
 .header-box-center{
-    width: 50%;
+    width: 40%;
     display: flex;
     justify-content: center;
 
@@ -41,7 +41,7 @@ header a{
 .header-box-right{
     display: flex;
     justify-content: end;
-    width: 25%;
+    width: 35%;
 }
 /* -------------------------------------- */
 .box{
@@ -89,3 +89,25 @@ header a{
     display: inline-block;
     padding-left: 6px;
 }
+/* ------------------------------------------------------------------ */
+footer{
+    background-color: black;
+    height: 110px;
+    max-width: 100%;
+    color: white;
+    padding: 30px;
+}
+.footer-box-left{
+    width: 50%;
+}
+.footer-box-left li{
+    padding: 10px 12px 0 0 ;
+}
+.footer-box-right{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    width: 50%;
+    height: 100%;
+}
+
