@@ -3,3 +3,42 @@
     padding: 0;
     box-sizing: border-box;
 }
+header{
+    height: 70px;
+    max-width: 100%;
+    padding: 10px;
+    background-color: #ff6900;
+}
+.contenitor{
+    display: flex;
+    height: 100%;
+    max-width: 1180px;
+    margin: 0 auto;
+}
+.header-box-left{
+   width: 25%;
+}
+header ul{
+    display: flex;
+    list-style-type: none;
+}
+header a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    line-height: 50px;
+}
+.header-box-center{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+
+}
+.header-box-center img{
+    max-height: 100%;
+}
+.header-box-right{
+    display: flex;
+    justify-content: end;
+    width: 25%;
+}
