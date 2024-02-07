@@ -7,10 +7,14 @@
 /* ---------------------HEADER-------------------------------------- */
 header{
     height: 70px;
-    max-width: 100%;
+    width: 100%;
     padding: 10px;
     background-color: #ff6900;
     margin-bottom: 60px;
+    z-index: 100;
+    position: sticky;    
+    left: 0;
+    top: 0;
 }
 .contenitor{
     display: flex;
@@ -85,6 +89,9 @@ a{
     padding: 4px 10px;
     font-size: 40px;
 }
+.heart:hover{
+    color: red;
+}
 .price {
     color: red;
     display: inline-block;
@@ -106,8 +113,6 @@ a{
 .relativ img:first-child:hover{
     opacity: 0;
 }
-
-
 /* -------------------------FOOTER----------------------------------------- */
 footer{
     background-color: black;
